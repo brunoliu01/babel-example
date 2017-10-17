@@ -1,0 +1,24 @@
+{
+  "name": "babel-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d lib --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoliu01/babel-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoliu01/babel-example/issues"
+  },
+  "homepage": "https://github.com/brunoliu01/babel-example#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
